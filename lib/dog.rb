@@ -1,11 +1,12 @@
 class Dog
     
-    #this is a setter
+    # this is a setter
+    # @ creates the inatance variable
     def name=(dog_name)
       @this_dogs_name = dog_name
     end
     
-    #this is a getter
+    # this is a getter
     def name
       @this_dogs_name
     end
